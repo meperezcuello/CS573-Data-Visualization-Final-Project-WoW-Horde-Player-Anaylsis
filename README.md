@@ -34,7 +34,9 @@ The following tasks and questions will drive the visualization and interaction d
 * Average playing time for each char class or race?
 * Average Playing time for each zone?
 
-## Sketches
+## Sketches 
+
+(**NOTE:** ) Sketches represented an idea during the developement of the project proposal, and unfinished features (e.i. sketcjes mot yet implemented will be a future revesion).
 
 **First Sketch:** This sketch is a unique, since it helps visualize the entire playing time or behavior of every single player (ID) recorded on the datasets. As we can see, there are time tha no data was recorded between two points(hours), meaning that the player was disconnected. This sketch is related to the question, How many players are connected in one zone at one specific time?, since it expanded the question into more details, however this plot has its cons. Such as to many data might not viable to visualize in on single plot.
 
