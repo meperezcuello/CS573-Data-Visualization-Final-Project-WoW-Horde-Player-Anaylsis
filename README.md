@@ -6,9 +6,11 @@ Following document present my CS573: Final Project for Data Visualization Course
 
 The course is interesting and good to have on your curriculum if you will be working with any type of data during you career. Data Viz are good to tell story, and good design are self-explanatory. A story is equally worth on value of a good product development, without it public cannot feel the reasons for the data to be further explorer for future work.
 
+
 ## Data
 
 The data I proposed to visualize for my project is the The [World of Warcraft Avatar History Dataset](https://gist.github.com/meperezcuello/38533ec33abb5e0b3568fa4f91d97bb3) which is a **collection of records that detail information about player characters** that was cleaned and limited to less than 2 days of hourly data (since the dataset was limited to 5 mb). Understanding players behavior over playing time, allows the developers to examine posibles updates. furthermore, good Viz allows proper predict gaming time for any future update or server optimization and maintenance (you would not performing maintenance, when most of your player population is online.
+
 
 ## Pre-Development Visualizations
 
@@ -21,6 +23,7 @@ For a better overview of the data I've decided to plot two Viz: **the first one*
 [![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/racevslevel.png)](https://beta.vizhub.com/meperezcuello/0eca535128ec4e0bb3c5e03866adad68)
  
 **Figure 2.** WOW Horde Avatar History (Race vs Total Level).
+
 
 ## Questions & Tasks
 
@@ -38,17 +41,18 @@ The following tasks and questions will drive the visualization and interaction d
 * Average playing time for each char class or race?
 * Average Playing time for each zone?
 
+
 ## Sketches (includes future work)
 
 **First Sketch (moved for future work):** This sketch is a unique, since it helps visualize the entire playing time or behavior of every single player (ID) recorded on the datasets. As we can see, there are time tha no data was recorded between two points(hours), meaning that the player was disconnected. This sketch is related to the question, How many players are connected in one zone at one specific time?, since it expanded the question into more details, however this plot has its cons. Such as to many data might not viable to visualize in on single plot.
 
 ![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/PlayerID%20vs%20Time.jpeg)
-**Figure 3.** WOW Horde Avatar History (Race vs Total Level).
+**Figure 3.** WOW Horde Avatar History (Players ID vs Timestamp).
 
 **Second Sketch (moved for future work):** This sketch similar to the last one however instead of unique ID, the Viz explore the total number of players per zone and charclass in an animated timeline of 24 to 48 hours (can be less or more). This plot is a bar plots, which is easier to interpret compared to other complex model we will see, which means user can easily identify the answer they are seeking. This chart answers the question, What race or charclass of players is most popular in one zone during a specific time?, due to the it shows most of the data information such as charclass on x time.
 
 ![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/Most%20Popular%20CharClass%20per%20Zone.jpeg)
-**Figure 4.** WOW Horde Avatar History (Race vs Total Level).
+**Figure 4.** WOW Horde Avatar History (#players vs Zones).
 
 **Third Sketch (developed):** Finally, we plot the density of player on the real map of WOW, i.e., total number of players per zone. This plot shows a real-time animation of how the density of each zone change over time, which can be useful to track content and utilities that might be useful for future updates. Also, this plot answers questions, concentration of players levels in a specific zone?, as explained before.
 **Figure 5.** WOW Horde Player Density Over Time.
@@ -60,7 +64,7 @@ The following tasks and questions will drive the visualization and interaction d
 
 ## Final Results
 
-![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/WOW%20Player%20Zone%20Density%20over%2048%20hours.jpeg)
+![image](https://raw.githubusercontent.com/meperezcuello/CS573-Data-Visualization-Final-Project-WoW-Horde-Player-Anaylsis/master/Images/Results/Final-WoW-Hord-Players-2018-Viz.png)
 **Figure 6.** WOW Horde Player Density on 2008 (release year of Wrath of Lich King Expansion).
 
 ## behavior for interactions
