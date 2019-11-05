@@ -67,7 +67,7 @@ The following tasks and questions will drive the visualization and interaction d
 ![image](https://raw.githubusercontent.com/meperezcuello/CS573-Data-Visualization-Final-Project-WoW-Horde-Player-Anaylsis/master/Images/Results/Final-WoW-Hord-Players-2018-Viz.png)
 **Figure 6.** WOW Horde Player Density on 2008 (release year of Wrath of Lich King Expansion).
 
-## behavior for interactions
+## Behavior for interactions
 
 ### How the Data Visualization Works?
 
